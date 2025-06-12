@@ -4,6 +4,8 @@ import MapComponent from './src/components/MapComponent';
 import fetchDroneData from './src/services/droneApi';
 import { filterDetectedObjects } from './src/utils/filter';
 
+const GOOGLE_MAPS_API_KEY = "AIzaSyCI_zBk8q3oE9kvcSgS__TCcpT2meVQpt4"; // ← 본인 키 입력
+
 export default function App() {
   const [markers, setMarkers] = useState([]);
 
