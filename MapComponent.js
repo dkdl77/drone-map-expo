@@ -2,6 +2,8 @@ import React from 'react';
 import MapView, { Marker } from 'react-native-maps';
 import { View, StyleSheet } from 'react-native';
 
+const GOOGLE_MAPS_API_KEY = "AIzaSyCI_zBk8q3oE9kvcSgS__TCcpT2meVQpt4"; // ← 본인 키 입력
+
 export default function MapComponent({ markers }) {
   const initialRegion = {
     latitude: 37.5665,
